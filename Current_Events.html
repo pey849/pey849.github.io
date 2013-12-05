@@ -1,37 +1,109 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%; width:100%">
-
-<head>
-	
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/Home.css" />
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100% width:100%">
+    
+    <head>
+	<meta charset="UTF-8" />
+         
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/Current_Events.css" />
 	<link rel="stylesheet" type="text/css" href="css/fluid_grid.css" />
-	
+	<link rel="stylesheet" type="text/css" href="css/Popup.css" />
+	<script type="text/javascript" src="Javascript/Join_Popup.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'/>
 	
 	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/tooltipster.css" />
 	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/style2.css" />
-	
-	<script type="text/javascript" src="Nav_Bar/jq.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 	<script type="text/javascript" src="Nav_Bar/js/jquery.tooltipster.js"></script>
 	<link rel="stylesheet" type="text/css" href="Nav_Bar/css/tooltipster.css" />
 	
-	
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'/>
 	
-	<title>Home</title>
-
-</head>
-
-<body>
+	<style type="text/css">
+	    
+	    img.Sponsor_Logos{opacity:1.0; filter:alpha(opacity=100);}
+	    img.Sponsor_Logos:hover{ opacity:0.6; filter:alpha(opacity=80);}
+	    
+	</style>
+	
+	<title>Current Events!</title>
+	
+    </head>
+    
+    
+    
+    
+    <body>
 	
 	<div class="container_12">
-	        
-		<!-- Start Slider -->
 		<div class=" grid_12 ">
+		    <div class="Join" id="Join_Event">
+			<h1 class="join_form">Halo Registration</h1>
 			
+			
+			<table class="" border="0">
+			    
+			    <tr>
+				
+				<td>
+				    Team Name: 
+				</td>
+				<td>
+				    <input type="text" id="teamName" placeholder="Alpha"/>
+				</td>
+				
+			    </tr>
+			    
+			    <tr>
+				
+				<td>
+				    Name: 
+				</td>
+				<td>
+				    <input type="text" id="name" placeholder="Mickey Mouse"/>
+				</td>
+			    </tr>
+			    
+			</table>
+			
+			<br/>
+			<table class="" border="0">
+			    
+			    <tr>
+				
+				<td colspan="2">
+				    Team Members' Names*
+				</td>
+				
+				
+			    </tr>
+			    
+			    <tr>
+				<td>
+				    <input type="text" id="name1" placeholder="Minnie Mouse"/>
+				</td>
+				<td>
+				    <input type="text" id="name2" placeholder="Donald Duck"/>
+				</td>
+			    </tr>
+			    
+			</table>
+			
+			
+			
+			<br/><br/>
+			<!--<input type="text" id="name" placeholder="Mickey Mouse"/>-->
+			<center><input type="button" onclick="Join()" value="Join"/> <input type="button" onclick="closeWindow()" value="Close Window"/></center>
+			<p class="note">*Leave Blank if you have no team</p>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container_12">
+		<div class=" grid_12 ">
+			<!-- Start Slider -->
 	
 			<div style="padding-top: 20px; padding-bottom: 20px">
 				<div id="wowslider-container1">
@@ -58,27 +130,25 @@
 			<script type="text/javascript" src="engine1/wowslider.js"></script>
 			<script type="text/javascript" src="engine1/script.js"></script>
 			
-			
+			<!-- End Slider -->
 		</div>
-		 <!-- End Slider -->
-		 
-		<div class="clear"></div>
 		
-		<div class="grid_12"><hr/></div>
+		
+		<div class="grid_12"> <br/> <hr /> <br/> </div>
 		
 		<!-- Start Nav Bar -->
 		<div class="grid_12">
-			
-			    
+		    
 			<div class="grid_12 menu_bar" >
 				
 				<div class="grid_2 ">
-					<section id="Current_Events">
+					<section id="Home">
 						<ul>
-							<a href="Current_Events.html"><span class="tooltip" title="Current Events!">Current Events</span></a>
+							<a href="index.html"><span class="tooltip" title="Homepage!">Home</span></a>
 						</ul>
 					</section>
 				</div>
+				
 				
 				<div class="grid_2 ">
 					<section id="Calender">
@@ -126,96 +196,100 @@
 				
 			</div>
 			
-				
 		</div>
-		
 		<!-- End Nav Bar -->
 		
-		<div class="clear"></div>
+		<div class="grid_12"> <br/> <hr /> <br/> </div>
 		
-		<div class="grid_12"><hr/></div>
+		<div class="grid_12 padding">
 		
-		<div class="clear"></div>
+		    <h1 class="titleFont">Current Events!</h1>
 		
+		</div>
 		
-		<!-- Start About Us -->
 		<div class="grid_12">
+		    
+		    <div class="sponsor grid_3 font">
 			
-			<!-- Start Welcome -->
-			<div class=grid_5>
-				
-				<div class="background">
-					<span class="go_center">
-						<span class="go_center welcome green_text">
-							<div class="go_center">
-								Welcome to the 
-								<h2 class="header">CSSS</h2>
-							</div>
-							
-						</span>
-					</span>
-				</div>
-				
-			</div>
+			<h1 class="go_center">Other Events</h1>
+			<h2 class="go_center">Halo Nights!</h2>
+			<img class="sponsors_logo" src="New/Halo_Chief.png"/>
+			<br/>
+			<h2 class="go_center">Smash Bros Tourny!</h2>
+			<img class="sponsors_logo" src="New/Pikachu.png"/>
 			
-			<!-- End Welcome -->
+		    </div>
+		    
+		    
+		    <div class="grid_6">
 			
-			<div class="clear"></div>
+			<div style="position: relative; z-index:-1"><img class="event_panel" src="New/Halo.png"/></div>
+			    
+		    </div>
+		    
+		    <div class="panel_info grid_3">
 			
-			<div class="grid_3">
-				<img class="Lealand" src="Exec_Photos/Lealand.jpg"/>
-			</div>
+			<h1 class="go_center font">Halo Night!</h1>
 			
-			<div class="background grid_6">
-				<p class="welcome_speech">
-					Hello fellow visitor,<br/> <br/>
-					My name is Lealand Adam. I am currently the 20th Computer Science Student Society
-					President. The purpose of the Computer Science Student Society or the CSSS, is to encourage and
-					strengthen community between students of computer science and other student, the Department
-					of Computer Science at the University of Saskatchewan, and potential employers of the world. We strengthen
-					our community base by hosting First Year Computer Science study sessions, social events and
-					helping anyone in Math or Computer Science classes to the best of our knowledge.
-				</p>
-			</div>
+			<p>&nbsp&nbsp3rd Floor Spinks</p>
+			<p>&nbsp&nbspNovember 29th, 2013</p>
+			<p>&nbsp&nbsp5:30pm - 12:00am</p>
+			<p>&nbsp&nbsp$5.00 to enter. Paid at the Door</p>
+			<center><input type="button"onclick="openWindow()" value="Join Event"/></center><br/>
 			
 			
-			<!-- Start Twitter Feed -->
-			<div class="grid_3" style="float: right">
-				
-				<a class="twitter-timeline" href="https://twitter.com/UofSCSSS" width:200px; height:100px; data-widget-id="296077113658843136">Tweets by @UofSCSSS</a>
-				<script>
-					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-				</script>
-			</div>
-			<!-- End Twitter Feed -->
+		    </div>
+		
+		    <div class="grid_9"><hr/></div>
+		    
+		    <div class="panel_info grid_3">
 			
+			<h1 class="go_center font">Zu Open House!</h1>
 			
+			<p>&nbsp&nbsp303 Pacific Avenue</p>
+			<p>&nbsp&nbspNovember 21th, 2013</p>
+			<p>&nbsp&nbsp5:30pm - 8:00pm</p>
+			<p>&nbsp&nbspFree Pizza and Beer!</p>
 			
-			<div class="background grid_9">
-				<p class="welcome_speech">
-					Currently, our Society consist of 14 executive members, including myself, and over 100 CSSS members. If
-					you are interested in becoming part of our society, stop by our office, S338 of 3rd Floor Spinks,
-					and we will be more than willing to help you out. We welcome all students to come and join the CSSS.
-					A membership costs only $5.00 and with that comes with many perks such as cheaper locker rentals,
-					free admission to CSSS hosted events and access to past Computer Science exam files just to name a few.
-					Our office provides an assortment of food and drinks for low prices. And if you're
-					looking to take a break from studying in the Spinks' Computer Lab, just right outside our office
-					is a Student Lounge which consists of a open sitting area, an air hockey table and a Ping Pong table.
-					I hope this message enlightens you on our Society's view and our purpose. Have a good day!
-				</p>
-			</div>
+		    </div>
+		    
+		    <div class="grid_6">
 			
+			<img class="event_panel" src="New/Zu_House.png"/>
+			
+		    </div>
+		    
+		     <div class="grid_9"><hr/></div>
+		    
+		    <div class="grid_6">
+			
+			<img class="event_panel" src="New/magic.jpg"/>
+			
+		    </div>
+		    
+		    <div class="panel_info grid_3">
+			
+			<h1 class="go_center font">Magic the Gathering Tournament!</h1>
+			
+			<p>&nbsp&nbsp3rd Floor Spinks</p>
+			<p>&nbsp&nbspOctober 23th, 2013</p>
+			<p>&nbsp&nbsp6:30pm - 12:00am</p>
+			<p>&nbsp&nbsp$20.00 to enter. Paid at the Door</p>
+			
+		    </div>
+		    
+		    <div class="grid_9"><hr/></div>
+		    
 		</div>
-		<!-- End About Us -->
 		
 		
-		<div class="clear"></div>
 		
-		<div class=" go_center grid_2">
+		<div class=" go_center grid_3">
 				
-			<h2>Proud Sponsors</h2>
+			<br/><h2 class="font">Proud Sponsors</h2>
 				
 		</div>
+		
 		
 		
 		<!-- Start Sponsor Bar -->
@@ -261,7 +335,14 @@
 		</div>
 		<!-- End Sponsor Bar -->
 		
-	</div>
-</body>
+		
+		
+		<div class="clear"></div>
+		<br/><br/> <hr/> <br/><br/>
 
+	</div>
+	
+	
+	
+    </body>
 </html>
