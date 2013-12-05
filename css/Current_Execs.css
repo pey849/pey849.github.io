@@ -40,7 +40,7 @@
 }
 
 h1.Exec_Name{
-    color:rgb(23, 255, 6);
+    color:rgba(23, 255, 6, 0.5);
     text-align: center;
     padding: 30px;
     font-family: Helvetica, Sans-Serif;
