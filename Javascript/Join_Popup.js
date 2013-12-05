@@ -40,7 +40,7 @@ function Join()
 	}
 	
 	else if ((name1 != "" || name2 != "")) {
-		alert("Your team is registered as followed\n" + name + "\n"+ name1 + "\n" + name2 + "\n" );
+		alert("Team "+ teamName +" is registered as followed\n" + name + "\n"+ name1 + "\n" + name2 + "\n" );
 		document.getElementById('name2').value = "";
 		document.getElementById('name1').value = "";
 		document.getElementById('name').value = "";
