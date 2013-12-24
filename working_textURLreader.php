@@ -12,8 +12,8 @@
         <?php
             $f = fopen("unitednations.txt", "r");
             $count = 0;
-            $x = array();
-            $y = array();
+            $x = array(); //array to hold links to pictures or file paths
+            $y = array(); //hold names
             
             // Read line by line until end of file
             while (!feof($f))
