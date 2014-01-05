@@ -1,0 +1,14 @@
+President; Lealand Adam; 5th; Computer Science and Psychology; Exec_Photos/Lealand.jpg; CMPT 111, CMPT 115
+Vice President; Jason Knight; 5th; Computer Science; Exec_Photos/Jason.jpg; CMPT 111, CMPT 115
+Secretary; Alicia Spencer; 4th; Computer Science; Exec_Photos/Alicia.jpg; CMPT 111, CMPT 115
+Treasurer; Thomas Youngson; 2nd; Computer Science; Exec_Photos/Thomas.jpg; CMPT 111
+Communications Director; Peter Yeung; 3rd; Computer Science; Exec_Photos/Peter.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+Social Director; Daniel Kwok; 4th; Chemistry; Exec_Photos/Daniel.jpg; CMPT 111
+Athletic Director; Christina Sitkowski; 3rd; Computer Science; Exec_Photos/Christina.jpg; CMPT 111, CMPT 115
+4th Year Rep; Alex Mair; 4th; Computer Science; Exec_Photos/Alex.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+3rd Year Rep; Jesse Rolheiser; 3rd; Computer Science; Exec_Photos/Jesse.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+2nd Year Rep; John Mason; 2nd; Computer Science; Exec_Photos/John.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+1st Year Rep; Eden Baltulis; 4th; English and Computer Science; Exec_Photos/Eden.jpg; CMPT 111
+Member At Large; Garrett Hansen; 2nd; Computer Science; Exec_Photos/Garrett.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+Member At Large; Elicia Parker; 3rd; Computer Science; Exec_Photos/Elicia.jpg; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270
+Member At Large; Mike Greve; 4th; Computer Science; https://drive.google.com/uc?export=download&id=0BzQsTIS0nLpBSzV1YWhxM29kVGc; CMPT 111, CMPT 115, CMPT 214, CMPT 260, 270

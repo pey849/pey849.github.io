@@ -1,0 +1,11 @@
+TextFiles/Company_Info/Sasktel.txt; 10:15 AM; 11:00 AM; Sasktel & Sasktel International; Spinks S311
+TextFiles/Company_Info/SED.txt; 11:00 AM; 11:30 AM; SED System; Spinks S311
+TextFiles/Company_Info/Arcurve.txt; 11:30 AM; 12:00 PM; Arcurve; Spinks S320
+TextFiles/Company_Info/Lunch.txt; 12:00 PM; 12:30 PM; --Lunch--; Spinks S360
+TextFiles/Company_Info/SaskTech.txt; 12:30 PM; 1:00 PM; Saskatoon Techworks; Spinks S360
+TextFiles/Company_Info/Point2.txt; 1:00 PM; 1:30 PM; Point2; Spinks S360
+TextFiles/Company_Info/Potash.txt; 1:30 PM; 2:00 PM; Potash Corp; Arts 146
+TextFiles/Company_Info/Google.txt; 2:00 PM; 2:30 PM; Google; Arts 146
+TextFiles/Company_Info/GB.txt; 2:30 PM; 3:00 PM; GB Internet Solutions; Arts 146
+TextFiles/Company_Info/Zu.txt; 3:00 PM; 3:30 PM; Zu; Arts 146
+TextFiles/Company_Info/Noodlecake.txt; 4:00 PM; 4:30 PM; Noodlecake Studios; Arts 146

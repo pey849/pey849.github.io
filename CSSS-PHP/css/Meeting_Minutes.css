@@ -1,0 +1,180 @@
+/*============ background ============*/
+
+.company_background
+{
+    background-color:  rgba(0, 0, 0,0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+.background-header
+{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+}
+
+
+/*============ Text ============*/
+
+.titleFont
+{
+    font-family: 'Wellfleet', cursive;
+    color: rgb(23, 255, 6);
+}
+
+.font
+{
+    font-family: Helvetica, Sans-Serif;
+    color: white;
+    font-size: large;
+}
+
+p.paragraph
+{
+    text-align:justify;
+    
+}
+
+td.paragraph
+{
+    text-align:justify;
+    font-family: Helvetica, Sans-Serif;
+}
+
+tr
+{
+    font-family: Helvetica, Sans-Serif;
+}
+
+tr.tableHeader
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+p.paragraph2
+{
+    text-align:justify;
+    visibility: hidden;
+}
+
+.Platinum
+{
+    color: rgb(168, 168, 168);
+}
+
+.Gold
+{
+    color: rgb(255, 223, 0);
+}
+
+.Silver
+{
+    color: rgb(192, 192, 192);
+}
+
+.Bronze
+{
+    color: rgb(205, 127, 50);
+}
+
+
+.odd{
+    color: rgb(23, 255, 6);
+    text-shadow: 1px 1px rgb(255, 253, 242);
+    
+}
+
+.even
+{
+    color: rgb(255, 253, 242);
+    margin-left: 35px;
+    text-shadow: 1px 2px rgb(23, 255, 6);
+}
+
+.student_header
+{
+    color: rgb(23, 255, 6);
+    margin-left: 35px;
+    text-shadow: 1px 1px rgb(255, 253, 242);
+}
+
+.CSSS
+{
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(23, 255, 6, 0.5);
+	
+}
+
+
+.CSSS:after 
+{
+	content: "CSSS";
+	position: absolute; left: 25px; top: 5px;
+	color: rgba(255, 253, 242, 0.5);
+	
+	
+}
+
+.main
+{
+    font-size:150%;
+    color: red;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main2
+{
+    font-size:120%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.green
+{
+    color: rgb(23, 255, 6);
+}
+
+.littleHeader
+{
+    text-align:  left;
+    margin-top: -10px;
+    padding-left: 27px;
+    color: white;
+    font: 25px Helvetica, Sans-Serif;
+}
+
+
+/*============ Images ============*/
+
+.uofscenter
+{
+    
+    padding: 20px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+/*============ Meeting Minutes ============*/
+table
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+tr.row:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+

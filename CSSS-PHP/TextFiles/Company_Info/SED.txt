@@ -1,0 +1,11 @@
+<b>SED Systems</b>
+
+SED Systems provides the world’s leading satellite companies with innovative solutions for building, operating, and testing their ground systems. Our systems, now operating on six continents, use the latest in hardware and software technologies across a diverse range of applications.
+
+Our software developers work on a variety of systems, including the satellite radio broadcast systems that we developed for SiriusXM. These systems merge hundreds of audio channels into the satellite data streams that are delivered to customer radios.
+
+Currently, we have a team developing a gateway system that allows aircraft and ground stations to exchange critical air traffic control messages over Inmarsat’s broadband satellite network.
+
+Our software developers experience all phases of development, including delivering systems to sites located all over the world. Developers are regularly tasked with new challenges on projects and succeed through learning and applying new technologies. We write well-tested and efficient C++, Java and Python code using the Eclipse IDE.
+
+We are located in Saskatoon at Innovation place near the University of Saskatchewan. Our software group is looking for graduates with a four-year degree in Computer Science or a three-year CS degree combined with an Electrical Engineering or Engineering Physics degree. To apply, visit our websites careers section at www.sedsystems.ca.
