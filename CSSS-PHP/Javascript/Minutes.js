@@ -128,3 +128,13 @@ $(document).ready(function()
     });
 });
 
+$(document).ready(function()
+{
+    $('#flip14').click(function()
+    {
+        $('#flip14').toggleClass('main');
+        $('#panel14').slideToggle('slow');
+        $('#panel14').toggleClass('main2');
+    });
+});
+

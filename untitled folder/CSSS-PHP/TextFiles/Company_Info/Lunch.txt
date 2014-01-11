@@ -1,0 +1,2 @@
+<h2>Pizza Lunch Provided by: </h2>
+<img class="pizza" src="New/pizza.png"/>

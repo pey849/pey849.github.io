@@ -55,6 +55,17 @@
 		    </div>
 		</div>
 		
+                <div class="grid_12">
+                    
+                    <ul>
+                        <li><a href="Career_Fair.php">Career Fair</a></li>
+                        <li><a href="Meeting_Minutes.php">Minutes</a></li>
+                        <li><a href="Current_Execs.php">Executives</a></li>
+                        <li><a href="Current_Events.php">Home</a></li>
+                    </ul>
+                    
+                </div>
+                
 		<div class="clear"></div>
                 
                 

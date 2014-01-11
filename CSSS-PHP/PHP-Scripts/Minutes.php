@@ -64,12 +64,11 @@ function meetingMinutes()
                         //added an extra word after the file path. Some reason the explode function added a blank
                         //space after the filename so it caused the file function to read a the same file name with a blank space at the end
                         //format is now: status; year; day; time; notes; random placeholder
-                        $notes = fileRead($arrM[4]);
+                        $notes = $arrM[4];
                         //{} <-- use to convert int to string, ignores the data type;
                         $flip[$index] = "flip{$index}" ;
                         $panel[$index] = "panel{$index}" ;
-                    
-			
+                        
                         echo
                         
                         "
@@ -130,7 +129,7 @@ function meetingMinutes()
             $mergeCss = $flipCss . "\n\n" . $panelCss;
             
             fwrite($css, $mergeCss);
-	    fclose($css);
+            fclose($css);
 	    fclose($f);
 	    fclose($javaScript);
             
